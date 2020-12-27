@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18F2058" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Info" representedClassName=".Info" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isCredit" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="storedNo" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MobileNo" representedClassName=".MobileNo" syncable="YES">
+        <attribute name="mobileNo" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Info" positionX="-63" positionY="-9" width="128" height="103"/>
+        <element name="MobileNo" positionX="-63" positionY="-18" width="128" height="58"/>
+    </elements>
+</model>

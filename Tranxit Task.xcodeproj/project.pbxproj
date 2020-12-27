@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0106824C25310E1500994ABD /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106824B25310E1500994ABD /* Info.swift */; };
+		01458D3D253187F200362053 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01458D3B253187F200362053 /* InfoTableViewCell.swift */; };
+		01458D3E253187F200362053 /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01458D3C253187F200362053 /* InfoTableViewCell.xib */; };
+		019345B725309D9800188EA2 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019345B625309D9800188EA2 /* Toast.swift */; };
+		01C907A025309FA5006192D2 /* TransitionSubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019345B425309D8A00188EA2 /* TransitionSubmitButton.swift */; };
+		01C907A125309FAF006192D2 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019345B125309D8A00188EA2 /* SpinerLayer.swift */; };
+		01C907A225309FB2006192D2 /* TimerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019345B325309D8A00188EA2 /* TimerEx.swift */; };
+		01C907A325309FB6006192D2 /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019345B525309D8A00188EA2 /* CGRectEx.swift */; };
+		01C907A425309FB9006192D2 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019345B225309D8A00188EA2 /* FadeTransition.swift */; };
+		01C907A62530A043006192D2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C907A52530A042006192D2 /* MainViewController.swift */; };
+		01C907A82530A44A006192D2 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C907A72530A44A006192D2 /* DatabaseHelper.swift */; };
+		01C907AA2530A5CE006192D2 /* MobileNo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C907A92530A5CE006192D2 /* MobileNo.swift */; };
+		01EABFFB25312523001E6654 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EABFFA25312523001E6654 /* DetailViewController.swift */; };
+		01FA8DBB253099E00037E537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FA8DBA253099E00037E537 /* AppDelegate.swift */; };
+		01FA8DBD253099E00037E537 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FA8DBC253099E00037E537 /* SceneDelegate.swift */; };
+		01FA8DBF253099E00037E537 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FA8DBE253099E00037E537 /* ViewController.swift */; };
+		01FA8DC2253099E00037E537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FA8DC0253099E00037E537 /* Main.storyboard */; };
+		01FA8DC5253099E00037E537 /* Tranxit_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01FA8DC3253099E00037E537 /* Tranxit_Task.xcdatamodeld */; };
+		01FA8DC7253099E50037E537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FA8DC6253099E50037E537 /* Assets.xcassets */; };
+		01FA8DCA253099E50037E537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FA8DC8253099E50037E537 /* LaunchScreen.storyboard */; };
+		01FA8DD5253099E50037E537 /* Tranxit_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FA8DD4253099E50037E537 /* Tranxit_TaskTests.swift */; };
+		01FA8DE0253099E50037E537 /* Tranxit_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FA8DDF253099E50037E537 /* Tranxit_TaskUITests.swift */; };
+		40CAF74AAA3ABE0BA6DC9606 /* Pods_Tranxit_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA1B811FC064AB2A892CE71 /* Pods_Tranxit_TaskTests.framework */; };
+		5BA9354FA4C4D907F19FC545 /* Pods_Tranxit_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF69A4AAABCDC2900136E7F0 /* Pods_Tranxit_Task.framework */; };
+		EA984A26D0802A8280EB01E0 /* Pods_Tranxit_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521D5A7A54ED50C0824A0087 /* Pods_Tranxit_TaskUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01FA8DD1253099E50037E537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01FA8DAF253099E00037E537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01FA8DB6253099E00037E537;
+			remoteInfo = "Tranxit Task";
+		};
+		01FA8DDC253099E50037E537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01FA8DAF253099E00037E537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01FA8DB6253099E00037E537;
+			remoteInfo = "Tranxit Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DB024687747C9C397DCC88 /* Pods-Tranxit TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tranxit TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tranxit TaskUITests/Pods-Tranxit TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0106824B25310E1500994ABD /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		01458D3B253187F200362053 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		01458D3C253187F200362053 /* InfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
+		019345B125309D8A00188EA2 /* SpinerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinerLayer.swift; sourceTree = "<group>"; };
+		019345B225309D8A00188EA2 /* FadeTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		019345B325309D8A00188EA2 /* TimerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerEx.swift; sourceTree = "<group>"; };
+		019345B425309D8A00188EA2 /* TransitionSubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSubmitButton.swift; sourceTree = "<group>"; };
+		019345B525309D8A00188EA2 /* CGRectEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectEx.swift; sourceTree = "<group>"; };
+		019345B625309D9800188EA2 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		01C907A52530A042006192D2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		01C907A72530A44A006192D2 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		01C907A92530A5CE006192D2 /* MobileNo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNo.swift; sourceTree = "<group>"; };
+		01EABFFA25312523001E6654 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		01FA8DB7253099E00037E537 /* Tranxit Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tranxit Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FA8DBA253099E00037E537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01FA8DBC253099E00037E537 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01FA8DBE253099E00037E537 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01FA8DC1253099E00037E537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01FA8DC4253099E00037E537 /* Tranxit_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tranxit_Task.xcdatamodel; sourceTree = "<group>"; };
+		01FA8DC6253099E50037E537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01FA8DC9253099E50037E537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01FA8DCB253099E50037E537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FA8DD0253099E50037E537 /* Tranxit TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tranxit TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FA8DD4253099E50037E537 /* Tranxit_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tranxit_TaskTests.swift; sourceTree = "<group>"; };
+		01FA8DD6253099E50037E537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FA8DDB253099E50037E537 /* Tranxit TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tranxit TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FA8DDF253099E50037E537 /* Tranxit_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tranxit_TaskUITests.swift; sourceTree = "<group>"; };
+		01FA8DE1253099E50037E537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521D5A7A54ED50C0824A0087 /* Pods_Tranxit_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tranxit_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B0ED91A6C6637BF67D7A78 /* Pods-Tranxit Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tranxit Task.release.xcconfig"; path = "Target Support Files/Pods-Tranxit Task/Pods-Tranxit Task.release.xcconfig"; sourceTree = "<group>"; };
+		8D2F43A37CABD7D707C5780A /* Pods-Tranxit TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tranxit TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Tranxit TaskTests/Pods-Tranxit TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8ECCAB3DCF758921F39EEF8 /* Pods-Tranxit TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tranxit TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Tranxit TaskUITests/Pods-Tranxit TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AAA80CF358867DE705B320F9 /* Pods-Tranxit TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tranxit TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Tranxit TaskTests/Pods-Tranxit TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF69A4AAABCDC2900136E7F0 /* Pods_Tranxit_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tranxit_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA1B811FC064AB2A892CE71 /* Pods_Tranxit_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tranxit_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F507A14BCDEDB11A1182EE28 /* Pods-Tranxit Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tranxit Task.debug.xcconfig"; path = "Target Support Files/Pods-Tranxit Task/Pods-Tranxit Task.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01FA8DB4253099E00037E537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA9354FA4C4D907F19FC545 /* Pods_Tranxit_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FA8DCD253099E50037E537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CAF74AAA3ABE0BA6DC9606 /* Pods_Tranxit_TaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FA8DD8253099E50037E537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA984A26D0802A8280EB01E0 /* Pods_Tranxit_TaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019345B025309D2C00188EA2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				019345B625309D9800188EA2 /* Toast.swift */,
+				019345B525309D8A00188EA2 /* CGRectEx.swift */,
+				019345B225309D8A00188EA2 /* FadeTransition.swift */,
+				019345B125309D8A00188EA2 /* SpinerLayer.swift */,
+				019345B325309D8A00188EA2 /* TimerEx.swift */,
+				019345B425309D8A00188EA2 /* TransitionSubmitButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		01FA8DAE253099E00037E537 = {
+			isa = PBXGroup;
+			children = (
+				01FA8DB9253099E00037E537 /* Tranxit Task */,
+				01FA8DD3253099E50037E537 /* Tranxit TaskTests */,
+				01FA8DDE253099E50037E537 /* Tranxit TaskUITests */,
+				01FA8DB8253099E00037E537 /* Products */,
+				3DA1E449C3CA7152A0559072 /* Pods */,
+				B6461655A9E0BAAAE689DC00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01FA8DB8253099E00037E537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01FA8DB7253099E00037E537 /* Tranxit Task.app */,
+				01FA8DD0253099E50037E537 /* Tranxit TaskTests.xctest */,
+				01FA8DDB253099E50037E537 /* Tranxit TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01FA8DB9253099E00037E537 /* Tranxit Task */ = {
+			isa = PBXGroup;
+			children = (
+				019345B025309D2C00188EA2 /* Helpers */,
+				01FA8DBA253099E00037E537 /* AppDelegate.swift */,
+				01FA8DBC253099E00037E537 /* SceneDelegate.swift */,
+				01FA8DBE253099E00037E537 /* ViewController.swift */,
+				01FA8DC0253099E00037E537 /* Main.storyboard */,
+				01FA8DC6253099E50037E537 /* Assets.xcassets */,
+				01FA8DC8253099E50037E537 /* LaunchScreen.storyboard */,
+				01FA8DCB253099E50037E537 /* Info.plist */,
+				01FA8DC3253099E00037E537 /* Tranxit_Task.xcdatamodeld */,
+				01C907A52530A042006192D2 /* MainViewController.swift */,
+				01C907A72530A44A006192D2 /* DatabaseHelper.swift */,
+				01C907A92530A5CE006192D2 /* MobileNo.swift */,
+				0106824B25310E1500994ABD /* Info.swift */,
+				01EABFFA25312523001E6654 /* DetailViewController.swift */,
+				01458D3B253187F200362053 /* InfoTableViewCell.swift */,
+				01458D3C253187F200362053 /* InfoTableViewCell.xib */,
+			);
+			path = "Tranxit Task";
+			sourceTree = "<group>";
+		};
+		01FA8DD3253099E50037E537 /* Tranxit TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				01FA8DD4253099E50037E537 /* Tranxit_TaskTests.swift */,
+				01FA8DD6253099E50037E537 /* Info.plist */,
+			);
+			path = "Tranxit TaskTests";
+			sourceTree = "<group>";
+		};
+		01FA8DDE253099E50037E537 /* Tranxit TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01FA8DDF253099E50037E537 /* Tranxit_TaskUITests.swift */,
+				01FA8DE1253099E50037E537 /* Info.plist */,
+			);
+			path = "Tranxit TaskUITests";
+			sourceTree = "<group>";
+		};
+		3DA1E449C3CA7152A0559072 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F507A14BCDEDB11A1182EE28 /* Pods-Tranxit Task.debug.xcconfig */,
+				53B0ED91A6C6637BF67D7A78 /* Pods-Tranxit Task.release.xcconfig */,
+				8D2F43A37CABD7D707C5780A /* Pods-Tranxit TaskTests.debug.xcconfig */,
+				AAA80CF358867DE705B320F9 /* Pods-Tranxit TaskTests.release.xcconfig */,
+				00DB024687747C9C397DCC88 /* Pods-Tranxit TaskUITests.debug.xcconfig */,
+				A8ECCAB3DCF758921F39EEF8 /* Pods-Tranxit TaskUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6461655A9E0BAAAE689DC00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF69A4AAABCDC2900136E7F0 /* Pods_Tranxit_Task.framework */,
+				EFA1B811FC064AB2A892CE71 /* Pods_Tranxit_TaskTests.framework */,
+				521D5A7A54ED50C0824A0087 /* Pods_Tranxit_TaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01FA8DB6253099E00037E537 /* Tranxit Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FA8DE4253099E50037E537 /* Build configuration list for PBXNativeTarget "Tranxit Task" */;
+			buildPhases = (
+				548DF69F68F7E34DC729713E /* [CP] Check Pods Manifest.lock */,
+				01FA8DB3253099E00037E537 /* Sources */,
+				01FA8DB4253099E00037E537 /* Frameworks */,
+				01FA8DB5253099E00037E537 /* Resources */,
+				3E15FDCA1FBA1AC9FEE5D5A1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tranxit Task";
+			productName = "Tranxit Task";
+			productReference = 01FA8DB7253099E00037E537 /* Tranxit Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01FA8DCF253099E50037E537 /* Tranxit TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FA8DE7253099E50037E537 /* Build configuration list for PBXNativeTarget "Tranxit TaskTests" */;
+			buildPhases = (
+				093EC8E520B3C3608982DC0B /* [CP] Check Pods Manifest.lock */,
+				01FA8DCC253099E50037E537 /* Sources */,
+				01FA8DCD253099E50037E537 /* Frameworks */,
+				01FA8DCE253099E50037E537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01FA8DD2253099E50037E537 /* PBXTargetDependency */,
+			);
+			name = "Tranxit TaskTests";
+			productName = "Tranxit TaskTests";
+			productReference = 01FA8DD0253099E50037E537 /* Tranxit TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01FA8DDA253099E50037E537 /* Tranxit TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FA8DEA253099E50037E537 /* Build configuration list for PBXNativeTarget "Tranxit TaskUITests" */;
+			buildPhases = (
+				A4BF45C35EEDD39BA0FAFF2A /* [CP] Check Pods Manifest.lock */,
+				01FA8DD7253099E50037E537 /* Sources */,
+				01FA8DD8253099E50037E537 /* Frameworks */,
+				01FA8DD9253099E50037E537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01FA8DDD253099E50037E537 /* PBXTargetDependency */,
+			);
+			name = "Tranxit TaskUITests";
+			productName = "Tranxit TaskUITests";
+			productReference = 01FA8DDB253099E50037E537 /* Tranxit TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01FA8DAF253099E00037E537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Shyam Kumar";
+				TargetAttributes = {
+					01FA8DB6253099E00037E537 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					01FA8DCF253099E50037E537 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 01FA8DB6253099E00037E537;
+					};
+					01FA8DDA253099E50037E537 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 01FA8DB6253099E00037E537;
+					};
+				};
+			};
+			buildConfigurationList = 01FA8DB2253099E00037E537 /* Build configuration list for PBXProject "Tranxit Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01FA8DAE253099E00037E537;
+			productRefGroup = 01FA8DB8253099E00037E537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01FA8DB6253099E00037E537 /* Tranxit Task */,
+				01FA8DCF253099E50037E537 /* Tranxit TaskTests */,
+				01FA8DDA253099E50037E537 /* Tranxit TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01FA8DB5253099E00037E537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FA8DCA253099E50037E537 /* LaunchScreen.storyboard in Resources */,
+				01458D3E253187F200362053 /* InfoTableViewCell.xib in Resources */,
+				01FA8DC7253099E50037E537 /* Assets.xcassets in Resources */,
+				01FA8DC2253099E00037E537 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FA8DCE253099E50037E537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FA8DD9253099E50037E537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		093EC8E520B3C3608982DC0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tranxit TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E15FDCA1FBA1AC9FEE5D5A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tranxit Task/Pods-Tranxit Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tranxit Task/Pods-Tranxit Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tranxit Task/Pods-Tranxit Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		548DF69F68F7E34DC729713E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tranxit Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4BF45C35EEDD39BA0FAFF2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tranxit TaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01FA8DB3253099E00037E537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C907AA2530A5CE006192D2 /* MobileNo.swift in Sources */,
+				01458D3D253187F200362053 /* InfoTableViewCell.swift in Sources */,
+				01FA8DBF253099E00037E537 /* ViewController.swift in Sources */,
+				01C907A62530A043006192D2 /* MainViewController.swift in Sources */,
+				01FA8DC5253099E00037E537 /* Tranxit_Task.xcdatamodeld in Sources */,
+				01C907A125309FAF006192D2 /* SpinerLayer.swift in Sources */,
+				01C907A82530A44A006192D2 /* DatabaseHelper.swift in Sources */,
+				01C907A025309FA5006192D2 /* TransitionSubmitButton.swift in Sources */,
+				01C907A325309FB6006192D2 /* CGRectEx.swift in Sources */,
+				019345B725309D9800188EA2 /* Toast.swift in Sources */,
+				01C907A425309FB9006192D2 /* FadeTransition.swift in Sources */,
+				01FA8DBB253099E00037E537 /* AppDelegate.swift in Sources */,
+				01C907A225309FB2006192D2 /* TimerEx.swift in Sources */,
+				01EABFFB25312523001E6654 /* DetailViewController.swift in Sources */,
+				01FA8DBD253099E00037E537 /* SceneDelegate.swift in Sources */,
+				0106824C25310E1500994ABD /* Info.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FA8DCC253099E50037E537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FA8DD5253099E50037E537 /* Tranxit_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FA8DD7253099E50037E537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FA8DE0253099E50037E537 /* Tranxit_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01FA8DD2253099E50037E537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01FA8DB6253099E00037E537 /* Tranxit Task */;
+			targetProxy = 01FA8DD1253099E50037E537 /* PBXContainerItemProxy */;
+		};
+		01FA8DDD253099E50037E537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01FA8DB6253099E00037E537 /* Tranxit Task */;
+			targetProxy = 01FA8DDC253099E50037E537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01FA8DC0253099E00037E537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01FA8DC1253099E00037E537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01FA8DC8253099E50037E537 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01FA8DC9253099E50037E537 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01FA8DE2253099E50037E537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01FA8DE3253099E50037E537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01FA8DE5253099E50037E537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F507A14BCDEDB11A1182EE28 /* Pods-Tranxit Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = "Tranxit Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shyam.Tranxit-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01FA8DE6253099E50037E537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B0ED91A6C6637BF67D7A78 /* Pods-Tranxit Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = "Tranxit Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shyam.Tranxit-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01FA8DE8253099E50037E537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2F43A37CABD7D707C5780A /* Pods-Tranxit TaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = "Tranxit TaskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shyam.Tranxit-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tranxit Task.app/Tranxit Task";
+			};
+			name = Debug;
+		};
+		01FA8DE9253099E50037E537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA80CF358867DE705B320F9 /* Pods-Tranxit TaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = "Tranxit TaskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shyam.Tranxit-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tranxit Task.app/Tranxit Task";
+			};
+			name = Release;
+		};
+		01FA8DEB253099E50037E537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DB024687747C9C397DCC88 /* Pods-Tranxit TaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = "Tranxit TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shyam.Tranxit-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tranxit Task";
+			};
+			name = Debug;
+		};
+		01FA8DEC253099E50037E537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8ECCAB3DCF758921F39EEF8 /* Pods-Tranxit TaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJ6L9UFY32;
+				INFOPLIST_FILE = "Tranxit TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shyam.Tranxit-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tranxit Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01FA8DB2253099E00037E537 /* Build configuration list for PBXProject "Tranxit Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FA8DE2253099E50037E537 /* Debug */,
+				01FA8DE3253099E50037E537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FA8DE4253099E50037E537 /* Build configuration list for PBXNativeTarget "Tranxit Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FA8DE5253099E50037E537 /* Debug */,
+				01FA8DE6253099E50037E537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FA8DE7253099E50037E537 /* Build configuration list for PBXNativeTarget "Tranxit TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FA8DE8253099E50037E537 /* Debug */,
+				01FA8DE9253099E50037E537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FA8DEA253099E50037E537 /* Build configuration list for PBXNativeTarget "Tranxit TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FA8DEB253099E50037E537 /* Debug */,
+				01FA8DEC253099E50037E537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01FA8DC3253099E00037E537 /* Tranxit_Task.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01FA8DC4253099E00037E537 /* Tranxit_Task.xcdatamodel */,
+			);
+			currentVersion = 01FA8DC4253099E00037E537 /* Tranxit_Task.xcdatamodel */;
+			path = Tranxit_Task.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01FA8DAF253099E00037E537 /* Project object */;
+}
